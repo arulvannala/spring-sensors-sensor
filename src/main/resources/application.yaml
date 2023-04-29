@@ -5,3 +5,5 @@ org:
       bindings:
         boot:
           enable: true
+
+quorum.enabled: true

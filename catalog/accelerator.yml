@@ -1,0 +1,10 @@
+apiVersion: accelerator.apps.tanzu.vmware.com/v1alpha1
+kind: Accelerator
+metadata:
+  name: spring-sensors-sensor
+  namespace: accelerator-system
+spec:
+  git:
+    url: https://github.com/arulvannala/spring-sensors-sensor
+    ref:
+      branch: main
